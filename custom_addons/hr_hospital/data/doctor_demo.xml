@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="hr_hospital_doctor_data_Mechnikov" model="hr.hospital.doctor" forcecreate="True">
+        <field name="name">Mechnikov</field>
+    </record>
+    <record id="hr_hospital_doctor_data_Sinenko" model="hr.hospital.doctor" forcecreate="True">
+        <field name="name">Sinenko</field>
+    </record>
+    <record id="hr_hospital_doctor_data_Bohomolec" model="hr.hospital.doctor" forcecreate="True">
+        <field name="name">Bohomolec</field>
+    </record>
+</odoo>
