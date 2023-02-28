@@ -36,7 +36,7 @@
     </record>
 
     <menuitem id="hr_hospital_patient_menu"
-            parent="hr_hospital_patient_list_menu"
+            parent="hr_hospital_patient_menu"
             action="hr_hospital_patient_act_window"
             name="Patients"
             sequence="150"/>

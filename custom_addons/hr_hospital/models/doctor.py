@@ -6,3 +6,5 @@ class HospitalDoctor(models.Model):
     _description = 'Doctor'
 
     name = fields.Char(required=True)
+    active = fields.Boolean(default=True)
+    patient_ids = fields.Many2many(comodel_name='hr.hospital.patient')
