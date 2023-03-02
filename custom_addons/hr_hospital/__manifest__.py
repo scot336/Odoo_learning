@@ -1,9 +1,10 @@
+# noinspection PyStatementEffect
 {
     'name': "hr_hospital",
     'summary': """Hospital management""",
     'license': 'LGPL-3',
     'author': "Shevchenko Igor",
-    'website': "http://github.com/scot336",
+    'website': "https://github.com/scot336",
     'category': 'Administration',
     'version': '15.0.1.0.0',
     'depends': ['base', 'contacts'],

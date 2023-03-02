@@ -7,6 +7,5 @@ class HospitalPatient(models.Model):
 
     name = fields.Char(required=True)
     birthday = fields.Date(string="Date of birth")
-    active = fields.Boolean(default=True)
     doctor_ids = fields.Many2many(comodel_name='hr.hospital.doctor')
     disease_ids = fields.Many2many(comodel_name='hr.hospital.disease')

@@ -6,6 +6,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
+                <field name="patient_ids"/>
             </tree>
         </field>
     </record>
@@ -18,6 +19,7 @@
                 <sheet>
                     <group>
                         <field name="name"/>
+                        <field name="patient_ids"/>
                     </group>
                 </sheet>
             </form>
@@ -30,10 +32,10 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="hr_hospital_doctor_menu"
-            parent="hr_hospital_doctor_menu"
-            action="hr_hospital_doctor_act_window"
-            name="Doctors"
-            sequence="150"/>
+    <menuitem id="hr_hospital_doctor_list_menu"
+              parent="hr_hospital_menu_main"
+              action="hr_hospital_doctor_act_window"
+              name="Doctors"
+              sequence="150"/>
 
 </odoo>
